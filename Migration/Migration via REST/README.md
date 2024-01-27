@@ -15,7 +15,7 @@ Module to migrate accounts and safes from one environment into another
 
 ### Explanation 
 
-- "Import-Module '\Migrate.psm1' -force" will load the module
+- "Import-Module '.\Migrate.psm1' -force" will load the module
 - "New-SourceSession" will establish a connection to the environment that currently has the safes and accounts
 - "Export-Accounts" will export all accounts the user that used "New-SourceSession" has access too
 	After the accounts have been exported you will want to review the CSV file to determin if accounts need to be removed from the list
