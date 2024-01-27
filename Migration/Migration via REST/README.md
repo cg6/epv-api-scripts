@@ -5,7 +5,7 @@ Module to migrate accounts and safes from one environment into another
 
 ## Process flow
 ### Commands used
-- Import-Module '`.\Migrate.psm1' -force
+- Import-Module '.\Migrate.psm1' -force
 - New-SourceSession
 - Export-Accounts
 - Import-Accounts
