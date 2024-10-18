@@ -53,12 +53,10 @@ $g_psmgwuserCred = ".\CreateCredFile.exe psmgw.cred Password /AppType PSMApp /Ip
 
 #commands to reset CPM credential files
 $g_cpmuserCredv12 = ".\CreateCredFile.exe user.ini Password /AppType CPM /EntropyFile /DPAPIMachineProtection /IpAddress /Hostname /Username {0} /Password {1}"
-
 $g_cpmuserCred = ".\CreateCredFile.exe user.ini Password /AppType CPM /IpAddress /Hostname /Username {0} /Password {1}"
 
 #commands to reset AAM credential files
 $g_aamuserwinCredv12 = ".\CreateCredFile.exe AppProviderUser.cred Password /AppType AppPrv /IpAddress /Hostname /EntropyFile /DPAPIMachineProtection /Username {0} /Password {1}"
-
 $g_aamuserwinCred = ".\CreateCredFile.exe AppProviderUser.cred Password /AppType AppPrv /IpAddress /Hostname /Username {0} /Password {1}"
 
 #vault.ini locations

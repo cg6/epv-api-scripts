@@ -36,7 +36,7 @@ Function Get-IdentityHeader {
         [Parameter(
             Mandatory = $false,
             HelpMessage = "Output header in a format for use with psPAS")]
-        [switch]$psPASFormat,
+        [switch]$psPASFormat, 
         #The Subdomain assigned to the privileged cloud environment.
         [Parameter(
             Mandatory = $false,
